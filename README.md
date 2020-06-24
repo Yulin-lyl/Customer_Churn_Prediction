@@ -14,7 +14,24 @@ Project is created with:
 * Python 3
 	
 ## Data Exploration
+- understand the raw dataset
 
 ```
+print ("Num of rows: " + str(churn_df.shape[0])) # row count
+print ("Num of columns: " + str(churn_df.shape[1])) # col count
 
+# check data info
+churn_df.info()
+
+# check the unique values for each column
+churn_df.nunique()
 ```
+About 20% of customers are labeled churn, which is imbalanced.
+
+- understand the features
+
+I check the numerical and categorical feature distribution as well as correlation of features.
+
+
+
+
