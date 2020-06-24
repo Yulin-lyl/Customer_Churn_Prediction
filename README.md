@@ -99,7 +99,7 @@ Confusion Matrix:
 
 ROC Curve:
 
-<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20ROC.png" alt="random forest ROC" width="550" height="500">
+<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20ROC.png" alt="random forest ROC" width="500" height="400">
 
 ## Feature Importance
 Feature importance ranking by Random Forest Model:
