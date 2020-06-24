@@ -35,13 +35,16 @@ About 20% of customers are labeled churn, which is imbalanced.
 I check the numerical and categorical feature distribution as well as correlation of features.
 
 numerical feature distribution:
-![numerical feature distribution](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/numerical%20feature%20distribution.png)
+
+<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/numerical%20feature%20distribution.png" alt="numerical feature distribution" width="800" height="600">
 
 categorical feature distribution:
-![categorical feature distribution](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/categorical%20feature%20distribution.png)
+
+<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/categorical%20feature%20distribution.png" alt="categorical feature distribution" width="800" height="600">
 
 correlation of features:
-![correlation of features](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/feature%20correlation.png)
+
+<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/feature%20correlation.png" alt="correlation of features" width="550" height="500">
 
 ## Feature Preprocessing
 ### Split Dataset
@@ -90,7 +93,8 @@ Accuracy is: 0.86
 precision is: 0.78
 recall is: 0.44
 Confusion Matrix:
-![random forest confusion matrix](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20confusion%20matrix.png)
+
+<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20confusion%20matrix.png" alt="confusion matrix" width="550" height="500">
 
 ROC Curve:
 
