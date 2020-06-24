@@ -93,8 +93,7 @@ Confusion Matrix:
 ![random forest confusion matrix](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20confusion%20matrix.png)
 
 ROC Curve:
-<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20ROC.png" alt="random forest ROC" width="100" height="100">
-![random forest ROC](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20ROC.png =100x100)
+<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20ROC.png" alt="random forest ROC" width="250" height="250">
 
 ## Feature Importance
 Feature importance ranking by Random Forest Model:
