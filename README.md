@@ -1,12 +1,12 @@
 # Customer_Churn_Prediction
 
 ## Table of contents
-* [General Info](#General Info)
+* [General Info](#general-info)
 * [Technologies](#Technologies)
-* [Data Exploration](#Data Exploration)
-* [Feature Preprocessing](#Feature Preprocessing)
-* [Model Training and Results Evaluation](#Model Training And Results Evaluation)
-* [Feature Selection](#Feature Selection)
+* [Data Exploration](#data-exploration)
+* [Feature Preprocessing](#feature-preprocessing)
+* [Model Training and Results Evaluation](#model-training-and-results-evaluation)
+* [Feature Selection](#feature-selection)
 
 ## General Info
 I use supervised learning models to identify customers who are likely to churn in the future. Furthermore, I will analyze top factors that influence user retention
