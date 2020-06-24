@@ -89,8 +89,11 @@ The best model is Random Forest.
 Accuracy is: 0.86
 precision is: 0.78
 recall is: 0.44
+Confusion Matrix:
+![random forest confusion matrix](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20confusion%20matrix.png)
 
-
+ROC Curve:
+![random forest ROC]()
 ## Model Training and Results Evaluation
 
 ## Feature Selection
