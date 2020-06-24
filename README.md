@@ -36,11 +36,11 @@ I check the numerical and categorical feature distribution as well as correlatio
 
 numerical feature distribution:
 
-<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/numerical%20feature%20distribution.png" alt="numerical feature distribution" width="1000" height="700">
+![numerical feature distribution](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/numerical%20feature%20distribution.png)
 
 categorical feature distribution:
 
-<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/categorical%20feature%20distribution.png" alt="categorical feature distribution" width="1000" height="700">
+![categorical feature distribution](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/categorical%20feature%20distribution.png)
 
 correlation of features:
 
