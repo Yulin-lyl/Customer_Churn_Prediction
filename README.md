@@ -6,7 +6,7 @@
 * [Data Exploration](#data-exploration)
 * [Feature Preprocessing](#feature-preprocessing)
 * [Model Training and Results Evaluation](#model-training-and-results-evaluation)
-* [Feature Selection](#feature-selection)
+* [Feature Importance](#feature-importance)
 
 ## General Info
 I use supervised learning models to identify customers who are likely to churn in the future. Furthermore, I will analyze top factors that influence user retention
@@ -49,7 +49,7 @@ correlation of features:
 # Reserve 20% for testing
 X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.25, stratify = y, random_state=1)
 ```
-
+## Model Training and Results Evaluation
 ### Model Training and Selection
 I use logistic regression, KNN and Random Forest to build machine learning models and train them.
 And I use 5-fold Cross Validation to get the accuracy for different models.
@@ -93,9 +93,20 @@ Confusion Matrix:
 ![random forest confusion matrix](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20confusion%20matrix.png)
 
 ROC Curve:
-![random forest ROC]()
-## Model Training and Results Evaluation
+![random forest ROC](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20ROC.png)
 
-## Feature Selection
-
+## Feature Importance
+Feature importance ranking by Random Forest Model:
+Age : 0.2404
+EstimatedSalary : 0.1466
+CreditScore : 0.1433
+Balance : 0.1424
+NumOfProducts : 0.1296
+Tenure : 0.0816
+IsActiveMember : 0.0395
+Geography_Germany : 0.0217
+Gender : 0.0185
+HasCrCard : 0.0185
+Geography_France : 0.0095
+Geography_Spain : 0.0085
 
