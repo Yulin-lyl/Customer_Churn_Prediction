@@ -32,6 +32,6 @@ About 20% of customers are labeled churn, which is imbalanced.
 
 I check the numerical and categorical feature distribution as well as correlation of features.
 
-
+![categorical feature distribution](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/categorical%20feature%20distribution.png)
 
 
