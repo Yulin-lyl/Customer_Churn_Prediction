@@ -14,7 +14,7 @@ Project is created with:
 * Python 3
 	
 ## Data Exploration
-- understand the raw dataset
+### understand the raw dataset
 
 ```
 print ("Num of rows: " + str(churn_df.shape[0])) # row count
@@ -28,10 +28,18 @@ churn_df.nunique()
 ```
 About 20% of customers are labeled churn, which is imbalanced.
 
-- understand the features
-
+### understand the features
 I check the numerical and categorical feature distribution as well as correlation of features.
 
+numerical feature distribution:
+![numerical feature distribution](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/numerical%20feature%20distribution.png)
+
+categorical feature distribution:
 ![categorical feature distribution](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/categorical%20feature%20distribution.png)
+
+correlation of features:
+![correlation of features](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/feature%20correlation.png)
+
+
 
 
