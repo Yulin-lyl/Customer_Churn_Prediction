@@ -102,16 +102,19 @@ ROC Curve:
 
 ## Feature Importance
 Feature importance ranking by Random Forest Model:
-Age : 0.2404
-EstimatedSalary : 0.1466
-CreditScore : 0.1433
-Balance : 0.1424
-NumOfProducts : 0.1296
-Tenure : 0.0816
-IsActiveMember : 0.0395
-Geography_Germany : 0.0217
-Gender : 0.0185
-HasCrCard : 0.0185
-Geography_France : 0.0095
-Geography_Spain : 0.0085
+
+Feature | Importance
+Seconds | 301 
+Age | 0.2404
+EstimatedSalary | 0.1466
+CreditScore | 0.1433
+Balance | 0.1424
+NumOfProducts | 0.1296
+Tenure | 0.0816
+IsActiveMember | 0.0395
+Geography_Germany | 0.0217
+Gender | 0.0185
+HasCrCard | 0.0185
+Geography_France | 0.0095
+Geography_Spain | 0.0085
 
