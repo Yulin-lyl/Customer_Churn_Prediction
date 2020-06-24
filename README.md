@@ -44,7 +44,7 @@ categorical feature distribution:
 
 correlation of features:
 
-<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/feature%20correlation.png" alt="correlation of features" width="550" height="500">
+<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/feature%20correlation.png" alt="correlation of features" width="500" height="400">
 
 ## Feature Preprocessing
 ### Split Dataset
@@ -95,7 +95,7 @@ recall is: 0.44
 
 Confusion Matrix:
 
-<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20confusion%20matrix.png" alt="confusion matrix" width="550" height="500">
+<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20confusion%20matrix.png" alt="confusion matrix" width="500" height="400">
 
 ROC Curve:
 
