@@ -93,6 +93,7 @@ Confusion Matrix:
 ![random forest confusion matrix](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20confusion%20matrix.png)
 
 ROC Curve:
+<img src="https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20ROC.png" alt="random forest ROC" width="100" height="100">
 ![random forest ROC](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/RF%20ROC.png =100x100)
 
 ## Feature Importance
