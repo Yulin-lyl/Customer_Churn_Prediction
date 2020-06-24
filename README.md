@@ -4,6 +4,9 @@
 * [General Info](#general-info)
 * [Technologies](#technologies)
 * [Data Exploration](#data_exploration)
+* [Feature Preprocessing](#feature_preprocessing)
+* [Model Training and Results Evaluation](#model_training_and_results_evaluation)
+* [Feature Selection](#feature_selection)
 
 ## General Info
 I use supervised learning models to identify customers who are likely to churn in the future. Furthermore, I will analyze top factors that influence user retention
@@ -40,6 +43,56 @@ categorical feature distribution:
 correlation of features:
 ![correlation of features](https://github.com/Yulin-lyl/Customer_Churn_Prediction/blob/master/feature%20correlation.png)
 
+## Feature Preprocessing
+### Split Dataset
+```
+# Reserve 20% for testing
+X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.25, stratify = y, random_state=1)
+```
 
+### Model Training and Selection
+I use logistic regression, KNN and Random Forest to build machine learning models and train them.
+And I use 5-fold Cross Validation to get the accuracy for different models.
+Random Forest has the highest accuracy, which is 0.8628.
+
+```
+model_names = ['Logistic Regression','KNN','Random Forest']
+model_list = [classifier_logistic, classifier_KNN, classifier_RF]
+count = 0
+
+for classifier in model_list:
+    cv_score = model_selection.cross_val_score(classifier, X_train, y_train, cv=5)
+    print(cv_score)
+    print('Model accuracy of ' + model_names[count] + ' is ' + str(cv_score.mean()))
+    count += 1
+```
+
+### Find Optimal Hyperparameters
+I use grid search to find optimal hyperparameters for each models.
+```
+# Possible hyperparamter options for Random Forest
+# Choose the number of trees
+parameters = {
+    'n_estimators' : [40,60,80]
+}
+Grid_RF = GridSearchCV(RandomForestClassifier(),parameters, cv=5)
+Grid_RF.fit(X_train, y_train)
+```
+### Model Evaluation
+TP: correctly labeled real churn
+
+Precision(PPV, positive predictive value): tp / (tp + fp); Total number of true predictive churn divided by the total number of predictive churn; High Precision means low fp, not many return users were predicted as churn users.
+
+Recall(sensitivity, hit rate, true positive rate): tp / (tp + fn) Predict most postive or churn user correctly. High recall means low fn, not many churn users were predicted as return users.
+
+The best model is Random Forest.
+Accuracy is: 0.86
+precision is: 0.78
+recall is: 0.44
+
+
+## Model Training and Results Evaluation
+
+## Feature Selection
 
 
